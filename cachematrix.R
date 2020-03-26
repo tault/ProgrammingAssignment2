@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## cacheSolve computes the inverse of the matrix returned by makeCacheMatrix
+## cacheSolve computes the inverse of the matrix-like list returned by makeCacheMatrix
 
 cacheSolve <- function(x, ...) {
         sv <- x$getsolve()
